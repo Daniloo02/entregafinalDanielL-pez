@@ -45,6 +45,7 @@ main {
 }
 
 .container-fluid { 
+    
     .ig { 
         width: 60px;
         height: 60px;    
@@ -64,6 +65,9 @@ main {
         margin-top: -3px;
     }
 }
+
+
+
 
 
 
@@ -113,17 +117,16 @@ main {
     justify-content: center;
     margin: 5rem 2rem 5rem 0rem;
     img {   
-    width: 250px;
-    height: 250px;
+    width: 4000px;
+    height: 400px;
     border-radius: 2rem;
     border-color: #503d2e;
     border-width: 0.2rem;
     border-style: solid;
     height: 15rem;
-    width: 20rem;
-    margin-left: 2rem;
-    } 
-}   
+    width: 22rem;
+    
+}  } 
 .videoss { 
     display: flex;
     flex-wrap: wrap;
@@ -137,9 +140,10 @@ main {
     height: 300px  ;
     width: 300px ;
     margin-left: 2rem;
-    }
-}
+    } } 
+
 /*INFORMACION*/ 
+
 .informacion { 
     background-color: $oscuro;
     text-align: center;
