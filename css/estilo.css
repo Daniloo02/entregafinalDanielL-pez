@@ -164,16 +164,15 @@ footer a {
   font-size: 16px;
 }
 
-.envios {
+#envioss {
   font-family: "Space Mono", monospace;
   font-family: "Ubuntu Condensed", sans-serif;
   font-size: large;
 }
 
-.envios2 {
+.accordion-body #envioss2 {
   font-family: "Space Mono", monospace;
   font-family: "Ubuntu Condensed", sans-serif;
-  font-size: 16px;
 }
 
 /*CONTACTO*/
@@ -332,84 +331,9 @@ main .lh-sm {
   color: white;
 }
 
-.container .como-comprar {
-  color: white;
-  text-decoration: underline black;
-  background-color: #8a7057;
-  padding: 1rem;
-}
-.container .como-comprar2 {
-  background-color: #8a7057;
-  color: white;
-  width: 100%;
-  height: 50%;
-  margin: 2rem auto;
-  margin-top: -4%;
-  padding: 1rem;
-}
-.container .instagram {
-  color: #503d2e;
-}
-.container .como-curar {
-  color: white;
-  text-decoration: underline black;
-  background-color: #8a7057;
-  margin-top: -1rem;
-  padding: 1rem;
-}
-.container .como-curar2 {
-  background-color: #8a7057;
-  color: white;
-  width: 100%;
-  height: 50%;
-  margin: 2rem auto;
-  margin-top: -1rem;
-  padding: 1rem;
-}
-.container .cuidar-mate {
-  color: white;
-  text-decoration: underline black;
-  background-color: #8a7057;
-  margin-top: -1rem;
-  padding: 1rem;
-}
-.container .cuidar-mate2 {
-  padding: 1rem;
-  background-color: #8a7057;
-  color: white;
-  width: 100%;
-  height: 50%;
-  margin-top: -3%;
-}
-.container .mis-productos {
-  color: white;
-  text-decoration: underline black;
-  background-color: #8a7057;
-  padding: 1rem;
-}
-.container .mis-productos2 {
-  padding: 1rem;
-  background-color: #8a7057;
-  color: white;
-  width: 100%;
-  height: 50%;
-  margin-top: -4%;
-}
-
-.envios {
-  color: white;
-  text-decoration: underline black;
-  background-color: #8a7057;
-  padding: 1rem;
-}
-
-.envios2 {
-  padding: 1rem;
-  background-color: #8a7057;
-  color: white;
-  width: 100%;
-  height: 50%;
-  margin-top: -4%;
+.accordion-header {
+  font-family: "Space Mono", monospace;
+  font-family: "Ubuntu Condensed", sans-serif;
 }
 
 /*CONTACTO*/

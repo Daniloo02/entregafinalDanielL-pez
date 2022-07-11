@@ -164,86 +164,12 @@ main {
     text-align: center;
     color: $blanco;
 }
-.container {
-.como-comprar { 
-    color: $blanco;
-    text-decoration: underline black;
-    background-color: $atras;
-    padding: 1rem;
-}
-.como-comprar2 { 
-    background-color: $atras;
-    color: $blanco;
-    width: 100%;
-    height: 50%;
-    margin: 2rem auto;
-    margin-top: -4%;
-    padding: 1rem;
-} 
-.instagram { 
-    color: $oscuro; 
-    
-}
-.como-curar { 
-    color: $blanco;
-    text-decoration: underline black;
-    background-color: $atras;
-    margin-top: -1rem;
-    padding: 1rem;
-}
-.como-curar2 {
-    background-color: $atras;
-    color: $blanco;
-    width: 100%;
-    height: 50%;
-    margin: 2rem auto;
-    margin-top: -1rem;
-    padding: 1rem;
-}
-.cuidar-mate { 
-    color: $blanco;
-    text-decoration: underline black;
-    background-color: $atras;
-    margin-top: -1rem;
-    padding: 1rem;
-}
-.cuidar-mate2 { 
-    padding: 1rem;
-    background-color: $atras;
-    color: $blanco;
-    width: 100%;
-    height: 50%;
-    margin-top: -3%;
-}
-.mis-productos { 
-    color: $blanco;
-    text-decoration: underline black;
-    background-color: $atras;
-    padding: 1rem;
-}
-.mis-productos2 { 
-    padding: 1rem;
-    background-color: $atras;
-    color: $blanco;
-    width: 100%;
-    height: 50%;
-    margin-top: -4%;} 
+.accordion-header {
+    font-family: 'Space Mono', monospace;
+        font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-.envios {
-    color: $blanco;
-    text-decoration: underline black;
-    background-color: $atras;
-    padding: 1rem;
-}
-.envios2 { 
-    padding: 1rem;
-    background-color: $atras;
-    color: $blanco;
-    width: 100%;
-    height: 50%;
-    margin-top: -4%;
-}
+
 /*CONTACTO*/
     .contactos { 
         background-color: $oscuro;
