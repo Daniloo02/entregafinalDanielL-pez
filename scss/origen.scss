@@ -11,7 +11,7 @@
 $oscuro: #503d2e;
 $clarito: #a79581;
 $blanco: white;
-$másclarito: #c1af9b;
+$masclarito: #c1af9b;
 $atras: #8a7057;
 
 /*IMPORT*/ 
@@ -105,18 +105,19 @@ main {
     width: 270px;
     height: 265px;
 }
-#peliculas{
+#imagenes {
     display: grid;
     grid-template-columns: repeat(6, 1fr) 
     grid-gap 30px ;
 }
-#peliculas .card{
+#imagenes .card{
     width: 100%;
     transition: all 300ms;
     position: relative;
 }
-#peliculas .card:hover{
+#imagenes .card:hover{
     transform: scale(1.15); } 
+
 /*TRABAJOS*/
 .trabajos { 
     text-align: center;
@@ -152,11 +153,7 @@ main {
     height: 300px  ;
     width: 300px ;
     margin-left: 2rem;
-    width: 100%;
     } } 
-.card { 
-
-}
 /*INFORMACION*/ 
 
 .informacion { 
@@ -166,7 +163,7 @@ main {
 }
 .accordion-header {
     font-family: 'Space Mono', monospace;
-        font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 

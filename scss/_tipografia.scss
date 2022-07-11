@@ -135,20 +135,16 @@ footer {
         font-family: 'Ubuntu Condensed', sans-serif;
         font-size: 16px;
 }
-#envioss { 
+.envioss { 
     font-family: 'Space Mono', monospace;
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: large;
 }
-.accordion-body{ 
-    #envioss2 { 
-    
+.envioss2 { 
     font-family: 'Space Mono', monospace;
         font-family: 'Ubuntu Condensed', sans-serif;
-    }
-    }
-        
-
+        font-size: 16px;
+}
 /*CONTACTO*/ 
 .contactos { 
     font-family: 'Space Mono', monospace;
@@ -159,4 +155,8 @@ footer {
     font-family: 'Space Mono', monospace;
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: large;
+}
+.accordion-body { 
+    font-family: 'Space Mono', monospace;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }

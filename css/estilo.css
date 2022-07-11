@@ -164,15 +164,16 @@ footer a {
   font-size: 16px;
 }
 
-#envioss {
+.envioss {
   font-family: "Space Mono", monospace;
   font-family: "Ubuntu Condensed", sans-serif;
   font-size: large;
 }
 
-.accordion-body #envioss2 {
+.envioss2 {
   font-family: "Space Mono", monospace;
   font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 16px;
 }
 
 /*CONTACTO*/
@@ -186,6 +187,11 @@ footer a {
   font-family: "Space Mono", monospace;
   font-family: "Ubuntu Condensed", sans-serif;
   font-size: large;
+}
+
+.accordion-body {
+  font-family: "Space Mono", monospace;
+  font-family: "Ubuntu Condensed", sans-serif;
 }
 
 /*INDEX*/
@@ -268,18 +274,18 @@ main .lh-sm {
   height: 265px;
 }
 
-#peliculas {
+#imagenes {
   display: grid;
   grid-template-columns: repeat(6, 1fr) grid-gap 30px;
 }
 
-#peliculas .card {
+#imagenes .card {
   width: 100%;
   transition: all 300ms;
   position: relative;
 }
 
-#peliculas .card:hover {
+#imagenes .card:hover {
   transform: scale(1.15);
 }
 
@@ -321,7 +327,6 @@ main .lh-sm {
   height: 300px;
   width: 300px;
   margin-left: 2rem;
-  width: 100%;
 }
 
 /*INFORMACION*/
