@@ -255,7 +255,7 @@ main .lh-sm {
 }
 
 .corazon {
-  width: 240px;
+  width: 250px;
   height: 220px;
 }
 
@@ -267,6 +267,21 @@ main .lh-sm {
 .combo3 {
   width: 270px;
   height: 265px;
+}
+
+#peliculas {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr) grid-gap 30px;
+}
+
+#peliculas .card {
+  width: 100%;
+  transition: all 300ms;
+  position: relative;
+}
+
+#peliculas .card:hover {
+  transform: scale(1.15);
 }
 
 /*TRABAJOS*/
@@ -307,6 +322,7 @@ main .lh-sm {
   height: 300px;
   width: 300px;
   margin-left: 2rem;
+  width: 100%;
 }
 
 /*INFORMACION*/
